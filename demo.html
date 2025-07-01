@@ -1,0 +1,88 @@
+<style>
+    .header {
+        background-color: aqua;
+        color: white;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .footer {
+        background-color: aqua;
+        color: white;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .aside {
+        background-color: greenyellow;
+        text-align: center;
+        height: 400px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .middle {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .artical {
+        background-color: orange;
+        display: grid;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .inside {
+        grid-template-columns: 2fr 2fr 2fr;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .twin {
+        background-color: lightcoral;
+        gap: 30px;
+        margin: 20px;
+        width: 100px;
+        height: 100px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<div class="container">
+
+    <div class="header">
+        <h1>Header</h1>
+    </div>
+    <div class="middle">
+        <div class="aside">Aside</div>
+        <div class="artical">Artical
+            <div class="inside">
+                <div class="twin">image</div>
+                <div class="twin">image</div>
+                <div class="twin">image</div>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <h1>Footer</h1>
+    </div>
+
+
+</div>
